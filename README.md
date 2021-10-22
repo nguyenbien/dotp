@@ -20,7 +20,10 @@ Add `dotp` as a dependency in your `pubspec.yaml` file.
 
 ```yaml
 dependencies:
-  dotp: ^1.0.2
+  dotp:
+    git:
+      url: https://github.com/nguyenbien/dotp.git
+      ref: main
 ```
 
 ### Example
